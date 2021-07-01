@@ -1,84 +1,76 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <title>Profile | EAD Laboratory</title>
-  </head>
-  <body>
-    <!-- awal navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid py-1">
-            <a class="navbar-brand" href="#"><img src="img/logo-ead.png" width="120" alt="Logo EAD"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="profile.html">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="product.html">Products</a>
-                    </li>
-                </ul>
+        <title>Profile | EAD Laboratory</title>
+    </head>
+    <body>
+        <!-- awal navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid py-1">
+                <a class="navbar-brand" href="#"><img src="assets/img/logo-ead.png" width="120" alt="Logo EAD"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- akhir navbar -->
+
+        <!-- awal card profile -->
+        <div class="container profile_content">
+            <div class="card">
+                <div class="card-header bg-grey text-center">
+                    <img src="assets/img/logo-ead.png" alt="Logo EAD"  class="logo_image">
+                </div>
+                <div class="card-body">
+                    <p class="card-text">EAD merupakan toko elektronik yang menjual barang-barang sebagai berikut:</p>
+                    <ol>
+                        <li>Komputer</li>
+                        <li>Keyboard</li>
+                        <li>Mouse</li>
+                    </ol>
+                    <p class="card-text">Merk yang tersedia di EAD Store antara lain:</p>
+                    <ul>
+                        <li>HP</li>
+                        <li>Asus</li>
+                        <li>Logitech</li>
+                        <li>Dell</li>
+                        <li>Lenovo</li>
+                        <li>Apple</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </nav>
-    <!-- akhir navbar -->
+        <!-- akhir card profile -->
 
-    <!-- awal card profile -->
-    <div class="container profile_content">
-        <div class="card">
-            <div class="card-header bg-grey text-center">
-                <img src="img/logo-ead.png" alt="Logo EAD"  class="logo_image">
-            </div>
-            <div class="card-body">
-                <p class="card-text">EAD merupakan toko elektronik yang menjual barang-barang sebagai berikut:</p>
-                <ol>
-                    <li>Komputer</li>
-                    <li>Keyboard</li>
-                    <li>Mouse</li>
-                </ol>
-                <p class="card-text">Merk yang tersedia di EAD Store antara lain:</p>
-                <ul>
-                    <li>HP</li>
-                    <li>Asus</li>
-                    <li>Logitech</li>
-                    <li>Dell</li>
-                    <li>Lenovo</li>
-                    <li>Apple</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- akhir card profile -->
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
 </html>
